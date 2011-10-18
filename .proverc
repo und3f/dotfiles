@@ -1,0 +1,2 @@
+--lib # Add 'lib' to the path for your tests (-Ilib)
+--recurse # Recursively descend into directories.
