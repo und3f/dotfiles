@@ -19,11 +19,15 @@ set ttyfast
 set ruler
 set backspace=indent,eol,start
 set nonumber
-set norelativenumber
+if v:version >= 730
+    set norelativenumber
+endif
 set laststatus=2
 set history=500
-set undofile
-set undoreload=10000
+if v:version >= 730
+    set undofile
+    set undoreload=10000
+endif
 set nolist
 set listchars=tab:▸\ ,eol:¬,extends:❯,precedes:❮
 set lazyredraw
