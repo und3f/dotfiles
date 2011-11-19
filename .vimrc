@@ -63,7 +63,9 @@ set wrap
 "set colorcolumn=+1
 " }}}
 
-set undodir=~/.vim/tmp/undo//
+if v:version >= 730
+    set undodir=~/.vim/tmp/undo//
+endif
 set backupdir=~/.vim/tmp/backup//
 set directory=~/.vim/tmp/swap//
 set backup
