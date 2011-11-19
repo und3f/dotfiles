@@ -131,44 +131,35 @@ noremap k gk
 set langmap=ёйцукенгшщзхъфывапролджэячсмитьбюЁЙЦУКЕHГШЩЗХЪФЫВАПРОЛДЖЭЯЧСМИТЬБЮ;`qwertyuiop[]asdfghjkl\\;'zxcvbnm\\,.~QWERTYUIOP{}ASDFGHJKL:\\"ZXCVBNM<>
 
 " Utils {{{
+imap <f2> <esc>:w<cr>a
+nmap <f2> :w<cr>
 
-imap <F2> <Esc>:w<CR>a
-nmap <F2> :w<CR>
+imap <f3> <esc>:tabnew 
+nmap <f3> :tabnew 
 
-" Tabs navigation
-" imap <A-Right> <Esc>:tabnext<CR>
-" nmap <A-Right> :tabnext<CR>
+" Usual tab navigation
+imap <c-tab> <esc>:tabn<cr>
+nmap <c-tab> :tabn<cr>
 
-" imap <A-Left> <Esc>:tabprevious<CR>
-" nmap <A-Left> :tabprevious<CR>
+imap <c-s-tab> <esc>:tabp<cr>
+nmap <c-s-tab> :tabp<cr>
 
-imap <C-tab> <esc>:tabn<cr>
-nmap <C-tab> :tabn<cr>
+imap <a-1> <esc>:tabn 1<cr>
+nmap <a-1> :tabn 1<cr>
+imap <a-2> <esc>:tabn 2<cr>
+nmap <a-2> :tabn 2<cr>
+imap <a-3> <esc>:tabn 3<cr>
+nmap <a-3> :tabn 3<cr>
+imap <a-4> <esc>:tabn 4<cr>
+nmap <a-4> :tabn 4<cr>
+imap <a-5> <esc>:tabn 5<cr>
+nmap <a-5> :tabn 5<cr>
+imap <a-6> <esc>:tabn 6<cr>
+nmap <a-6> :tabn 6<cr>
 
-imap <C-S-tab> <esc>:tabp<cr>
-nmap <C-S-tab> :tabp<cr>
-
-imap <A-1> <Esc>:tabn 1<CR>
-nmap <A-1> :tabn 1<CR>
-
-imap <A-2> <Esc>:tabn 2<CR>
-nmap <A-2> :tabn 2<CR>
-
-imap <A-3> <Esc>:tabn 3<CR>
-nmap <A-3> :tabn 3<CR>
-
-imap <A-4> <Esc>:tabn 4<CR>
-nmap <A-4> :tabn 4<CR>
-
-imap <A-5> <Esc>:tabn 5<CR>
-nmap <A-5> :tabn 5<CR>
-
-imap <A-6> <Esc>:tabn 6<CR>
-nmap <A-6> :tabn 6<CR>
-
-" Compilation
-imap <F9> <Esc>:wa<CR>:make<CR>
-nmap <F9> :wa<CR>:make<CR>
+" compilation
+imap <f9> <esc>:wa<cr>:make<cr>
+nmap <f9> :wa<cr>:make<cr>
 
 " }}}
 
