@@ -6,3 +6,4 @@
 .vim/tmp/undo/*
 !.vim/tmp/undo/.keep
 .vim/spell
+.vim/.netrwhist
