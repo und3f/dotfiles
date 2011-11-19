@@ -181,3 +181,9 @@ let perl_sync_dist     = 250  "use more context for highlighting"
 
 " Sudo to write
 cmap w!! w !sudo tee % >/dev/null
+
+" Gist {{{
+let g:gist_detect_filetype = 1
+let g:gist_open_browser_after_post = 1
+let g:gist_private = 1
+" }}}
