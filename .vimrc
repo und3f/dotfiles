@@ -1,6 +1,7 @@
 " Preamble {{{
 filetype off
-call pathogen#runtime_append_all_bundles() 
+runtime bundle/vim-pathogen/autoload/pathogen.vim
+call pathogen#infect()
 filetype plugin indent on
 set nocompatible
 " }}}
@@ -83,13 +84,6 @@ set mousehide
 " }}}
 
 " Status line {{{
-augroup ft_statuslinecolor
-    au!
-
-    au InsertEnter * hi StatusLine ctermfg=196 guifg=#FF3145
-    au InsertLeave * hi StatusLine ctermfg=130 guifg=#CD5907
-augroup END
-
 set statusline=%f    " Path.
 set statusline+=%m   " Modified flag.
 set statusline+=%r   " Readonly flag.

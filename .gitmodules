@@ -1,0 +1,12 @@
+[submodule ".vim/bundle/vim-pathogen"]
+	path = .vim/bundle/vim-pathogen
+	url = https://github.com/tpope/vim-pathogen.git
+[submodule ".vim/bundle/vim-colors-solarized"]
+	path = .vim/bundle/vim-colors-solarized
+	url = git://github.com/altercation/vim-colors-solarized.git
+[submodule ".vim/bundle/mustache"]
+	path = .vim/bundle/mustache
+	url = git://github.com/juvenn/mustache.vim.git
+[submodule ".vim/bundle/mojo"]
+	path = .vim/bundle/mojo
+	url = git://github.com/yko/mojo.vim.git
