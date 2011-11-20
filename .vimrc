@@ -39,7 +39,7 @@ set notimeout
 set nottimeout
 set autowrite
 set shiftround
-set notitle
+set title
 " }}}
 
 " Wildmenu completion {{{
@@ -134,7 +134,7 @@ noremap k gk
 " }}}
 
 " Russian langmap
-set langmap=ёйцукенгшщзхъфывапролджэячсмитьбюЁЙЦУКЕHГШЩЗХЪФЫВАПРОЛДЖЭЯЧСМИТЬБЮ;`qwertyuiop[]asdfghjkl\\;'zxcvbnm\\,.~QWERTYUIOP{}ASDFGHJKL:\\"ZXCVBNM<>
+set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz
 
 " Utils {{{
 imap <f2> <esc>:w<cr>a
