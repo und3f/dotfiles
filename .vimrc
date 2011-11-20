@@ -16,7 +16,7 @@ set hidden
 set novisualbell
 set nocursorline
 set ttyfast
-set ruler
+set noruler
 set backspace=indent,eol,start
 set nonumber
 if v:version >= 730
@@ -37,6 +37,7 @@ set splitbelow
 set splitright
 set notimeout
 set nottimeout
+set autoread
 set autowrite
 set shiftround
 set title
