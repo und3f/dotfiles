@@ -16,3 +16,12 @@
 [submodule ".vim/bundle/gist-vim"]
 	path = .vim/bundle/gist-vim
 	url = git://github.com/mattn/gist-vim.git
+[submodule ".vim/bundle/nginx"]
+	path = .vim/bundle/nginx
+	url = https://github.com/vim-scripts/nginx.vim.git
+[submodule ".vim/bundle/gnupg"]
+	path = .vim/bundle/gnupg
+	url = https://github.com/vim-scripts/gnupg.git
+[submodule ".vim/bundle/sessionman"]
+	path = .vim/bundle/sessionman
+	url = https://github.com/vim-scripts/sessionman.vim.git
