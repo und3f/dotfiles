@@ -25,3 +25,15 @@
 [submodule ".vim/bundle/sessionman"]
 	path = .vim/bundle/sessionman
 	url = https://github.com/vim-scripts/sessionman.vim.git
+[submodule ".vim/bundle/vim-snipmate"]
+	path = .vim/bundle/vim-snipmate
+	url = git://github.com/garbas/vim-snipmate.git
+[submodule ".vim/bundle/tlib_bim"]
+	path = .vim/bundle/tlib_bim
+	url = git://github.com/tomtom/tlib_vim.git
+[submodule ".vim/bundle/vim-addon-mw-utils"]
+	path = .vim/bundle/vim-addon-mw-utils
+	url = git://github.com/MarcWeber/vim-addon-mw-utils.git
+[submodule ".vim/bundle/snipmate-snipets"]
+	path = .vim/bundle/snipmate-snipets
+	url = git://github.com/honza/snipmate-snippets.git
