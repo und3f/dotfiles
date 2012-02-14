@@ -11,7 +11,7 @@
 --maximum-consecutive-blank-lines=4
 
 # Vertical tightness
---vertical-tightness=1
+--vertical-tightness=0
 
 # Horizontal tightness
 --paren-tightness=2
