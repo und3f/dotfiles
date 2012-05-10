@@ -4,7 +4,7 @@ ZSH_THEME="gentoo"
 DISABLE_AUTO_UPDATE="true"
 COMPLETION_WAITING_DOTS="true"
 
-plugins=(git cpanm)
+plugins=(git debian)
 
 source $ZSH/oh-my-zsh.sh
 
