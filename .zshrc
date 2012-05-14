@@ -12,3 +12,8 @@ bindkey '\e[A' history-beginning-search-backward
 bindkey '\e[B' history-beginning-search-forward
 
 setopt alwaystoend             # when complete from middle, move cursor
+
+# Aliases
+alias youtube-dl='youtube-dl -tn'
+alias tmux='TERM=xterm-256color tmux'
+
