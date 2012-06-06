@@ -15,5 +15,6 @@ setopt alwaystoend             # when complete from middle, move cursor
 
 # Aliases
 alias youtube-dl='youtube-dl -tn'
-alias tmux='TERM=xterm-256color tmux'
+alias tmux='tmux -2'
 
+eval $(perl -I/home/und3f/perl5/lib/perl5 -Mlocal::lib)
