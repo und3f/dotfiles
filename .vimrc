@@ -41,6 +41,7 @@ set autoread
 set autowrite
 set shiftround
 set title
+let mapleader = ","
 " }}}
 
 " Wildmenu completion {{{
