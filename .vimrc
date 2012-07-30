@@ -172,7 +172,7 @@ nmap <f9> :wa<cr>:make<cr>
 " }}}
 
 " Perl {{{
-autocmd FileType perl setlocal equalprg=perltidy
+autocmd FileType perl setlocal equalprg=perltidy\ -q
 let perl_include_pod   = 1    "include pod.vim syntax file with perl.vim"
 let perl_extended_vars = 1    "highlight complex expressions such as @{[$x, $y]}"
 let perl_sync_dist     = 250  "use more context for highlighting"
