@@ -190,3 +190,7 @@ let g:gist_post_private = 1
 " Slime {{{
 let g:slime_target = "tmux"
 " }}}
+
+" Calendar.vim {{{
+let g:calendar_monday = 1
+" }}}
