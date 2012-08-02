@@ -193,6 +193,7 @@ let g:gist_post_private = 1
 let g:slime_target = "tmux"
 " }}}
 
-" Calendar.vim {{{
+" VimWiki {{{
+let g:vimwiki_list = [{'path': '~/Documents/wiki', 'ext': '.wiki.gpg' }]
 let g:calendar_monday = 1
 " }}}
