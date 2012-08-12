@@ -197,3 +197,9 @@ let g:slime_target = "tmux"
 let g:vimwiki_list = [{'path': '~/Documents/wiki', 'ext': '.wiki.gpg' }]
 let g:calendar_monday = 1
 " }}}
+
+" Command-T {{{
+set wildignore+=blib/**,inc/**
+let g:CommandTCancelMap             = ['<C-x>', '<C-[>', '<Esc>']
+let g:CommandTAcceptSelectionMap    = ['<CR>', '<C-j>']
+" }}}
