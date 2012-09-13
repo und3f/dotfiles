@@ -200,6 +200,6 @@ let g:calendar_monday = 1
 
 " Command-T {{{
 set wildignore+=blib/**,inc/**
-let g:CommandTCancelMap             = ['<C-x>', '<C-[>', '<Esc>']
-let g:CommandTAcceptSelectionMap    = ['<CR>', '<C-j>']
+" let g:CommandTCancelMap             = ['<C-x>', '<C-[>', '<Esc>']
+" let g:CommandTAcceptSelectionMap    = ['<CR>', '<C-j>']
 " }}}
