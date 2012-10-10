@@ -130,7 +130,7 @@ set gdefault
 " Navigation, visual {{{
 set virtualedit+=block
 
-" Really, it's 2011
+" Wrapped line navigation {{{
 noremap j gj
 noremap k gk
 " }}}
