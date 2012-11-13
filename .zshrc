@@ -26,5 +26,4 @@ then
     eval $(perl -I "$HOME/perl5/lib/perl5" -Mlocal::lib)
 fi
 
-export PATH="$HOME/bin:$PATH"
-
+export PATH="$HOME/.local/bin:$PATH"

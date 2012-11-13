@@ -1,0 +1,4 @@
+#!/bin/sh
+
+session="sys"
+tmux new -s $session || tmux attach -t $session
