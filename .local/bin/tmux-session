@@ -1,4 +1,4 @@
 #!/bin/sh
 
 session="sys"
-tmux new -s $session || tmux attach -t $session
+tmux -2 new -s $session || tmux -2 attach -t $session
