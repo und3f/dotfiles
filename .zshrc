@@ -19,6 +19,7 @@ setopt alwaystoend             # when complete from middle, move cursor
 alias youtube-dl='youtube-dl -tn'
 alias tmux='tmux -2'
 alias myip='curl check-host.net/ip'
+alias feh='feh -ZF'
 
 # ENV settings
 if [ -e "$HOME/perl5" ]
