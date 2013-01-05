@@ -67,3 +67,6 @@
 [submodule ".vim/bundle/bufexplorer"]
 	path = .vim/bundle/bufexplorer
 	url = https://github.com/vim-scripts/bufexplorer.zip.git
+[submodule ".vim/bundle/vimchat"]
+	path = .vim/bundle/vimchat
+	url = https://github.com/ironcamel/vimchat.git

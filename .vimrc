@@ -203,3 +203,9 @@ set wildignore+=blib/**,inc/**
 " let g:CommandTCancelMap             = ['<C-x>', '<C-[>', '<Esc>']
 " let g:CommandTAcceptSelectionMap    = ['<CR>', '<C-j>']
 " }}}
+
+" VimChat {{{
+let g:vimchat_logchats   = 1
+let g:vimchat_libnotify  = 0
+let g:vimchat_statusicon = 1
+" }}}
