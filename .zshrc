@@ -16,6 +16,8 @@ bindkey '\e[B' history-beginning-search-forward
 setopt alwaystoend             # when complete from middle, move cursor
 
 # Aliases
+alias bc='bc -l'
+alias sperl='sudo /usr/bin/perl -I/home/und3f/perl5/lib/perl5 -Mlocal::lib'
 alias youtube-dl='youtube-dl -tn'
 alias tmux='tmux -2'
 alias myip='curl check-host.net/ip'
