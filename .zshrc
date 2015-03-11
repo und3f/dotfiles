@@ -29,4 +29,7 @@ then
     eval $(perl -I "$HOME/perl5/lib/perl5" -Mlocal::lib)
 fi
 
+# Plenv
+alias plenv_enable='export PATH="$HOME/.plenv/bin:$PATH"; eval "$(plenv init -)"'
+
 export PATH="$HOME/.local/bin:$PATH"
