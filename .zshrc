@@ -22,6 +22,7 @@ alias youtube-dl='youtube-dl -tn'
 alias tmux='tmux -2'
 alias myip='curl check-host.net/ip'
 alias feh='feh -ZF'
+alias slave="$HOME/dev/vpsutils/connect_slave.pl"
 
 # ENV settings
 if [ -e "$HOME/perl5" ]
