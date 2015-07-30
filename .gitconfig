@@ -3,3 +3,5 @@
 [user]
 	name = Sergey Zasenko
 	email = d3fin3@gmail.com
+[push]
+	default = simple
