@@ -19,7 +19,6 @@ setopt alwaystoend             # when complete from middle, move cursor
 alias bc='bc -l'
 alias sperl="sudo /usr/bin/perl -I$HOME/perl5/lib/perl5 -Mlocal::lib"
 alias sprove="sudo /usr/bin/prove -I$HOME/perl5/lib/perl5 -Mlocal::lib"
-alias youtube-dl='youtube-dl -tn'
 alias tmux='tmux -2'
 alias myip='curl check-host.net/ip'
 alias feh='feh -ZF'
