@@ -21,7 +21,7 @@
 	url = https://github.com/vim-scripts/nginx.vim.git
 [submodule ".vim/bundle/gnupg"]
 	path = .vim/bundle/gnupg
-	url = https://github.com/vim-scripts/gnupg.git
+	url = https://github.com/jamessan/vim-gnupg.git
 [submodule ".vim/bundle/sessionman"]
 	path = .vim/bundle/sessionman
 	url = https://github.com/vim-scripts/sessionman.vim.git
