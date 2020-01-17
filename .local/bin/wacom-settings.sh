@@ -1,6 +1,6 @@
 #!/bin/sh
 
-device=$(xsetwacom --list devices | grep PAD | awk -F'\\s*id' '{print $1}')
+device=$(xsetwacom --list devices | grep PAD | awk -F'\\s*id' '{print $1}' | sed 's/[[:space:]]*$//')
 xsetwacom set "$device" Button 10 key "shift"
 xsetwacom set "$device" Button 11 key "ctrl" 
 xsetwacom set "$device" Button 12 "key Alt_L"
