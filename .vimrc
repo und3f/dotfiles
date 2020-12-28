@@ -56,10 +56,11 @@ set wildignore+=*.sw?                            " Vim swap files
 " }}}
 
 " Tabs, wrapping {{{
-set tabstop=4
-set shiftwidth=4
-set softtabstop=4
-set expandtab
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
+set noexpandtab
+" set expandtab
 set wrap
 "set textwidth=80
 "set colorcolumn=+1

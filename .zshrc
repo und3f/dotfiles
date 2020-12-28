@@ -23,6 +23,7 @@ alias tmux='tmux -2'
 alias myip='curl check-host.net/ip'
 alias feh='feh -ZF'
 alias slave="$HOME/dev/vpsutils/connect_slave.pl"
+alias firefox="$HOME/firefox/firefox"
 
 # ENV settings
 if [ -e "$HOME/perl5" ]
@@ -34,4 +35,5 @@ fi
 alias plenv_enable='eval $(perl -Mlocal::lib=--deactivate-all); export PATH="$HOME/.plenv/bin:$PATH"; eval "$(plenv init -)"'
 
 export PATH="$HOME/.local/bin:$PATH"
+export PATH="$PATH:$HOME/.local/bin/go/bin"
 export PATH="${PATH}:$HOME/android-sdk-linux/platform-tools:$HOME/android-sdk-linux/tools"
