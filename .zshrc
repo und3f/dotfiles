@@ -34,6 +34,10 @@ fi
 # Plenv
 alias plenv_enable='eval $(perl -Mlocal::lib=--deactivate-all); export PATH="$HOME/.plenv/bin:$PATH"; eval "$(plenv init -)"'
 
+# Go
+if [ -e "$HOME/go" ]
+then
+	export PATH="$HOME/go/bin:$PATH"
+fi
+
 export PATH="$HOME/.local/bin:$PATH"
-export PATH="$PATH:$HOME/.local/bin/go/bin"
-export PATH="${PATH}:$HOME/android-sdk-linux/platform-tools:$HOME/android-sdk-linux/tools"
