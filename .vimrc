@@ -205,8 +205,5 @@ set wildignore+=blib/**,inc/**
 " let g:CommandTAcceptSelectionMap    = ['<CR>', '<C-j>']
 " }}}
 
-" VimChat {{{
-let g:vimchat_logchats   = 1
-let g:vimchat_libnotify  = 0
-let g:vimchat_statusicon = 1
-" }}}
+" SnipMate
+let g:snipMate = { 'snippet_version': 1 }
