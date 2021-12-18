@@ -59,7 +59,7 @@ set wildignore+=*.sw?                            " Vim swap files
 set tabstop=2
 set shiftwidth=2
 set softtabstop=2
-set noexpandtab
+set expandtab
 " set expandtab
 set wrap
 "set textwidth=80
