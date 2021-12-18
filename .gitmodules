@@ -4,21 +4,12 @@
 [submodule ".vim/bundle/vim-colors-solarized"]
 	path = .vim/bundle/vim-colors-solarized
 	url = git://github.com/altercation/vim-colors-solarized.git
-[submodule ".vim/bundle/mustache"]
-	path = .vim/bundle/mustache
-	url = git://github.com/juvenn/mustache.vim.git
-[submodule ".vim/bundle/mojo"]
-	path = .vim/bundle/mojo
-	url = git://github.com/yko/mojo.vim.git
 [submodule ".vim/bundle/vim-fugitive"]
 	path = .vim/bundle/vim-fugitive
 	url = git://github.com/tpope/vim-fugitive.git
 [submodule ".vim/bundle/gist-vim"]
 	path = .vim/bundle/gist-vim
 	url = git://github.com/mattn/gist-vim.git
-[submodule ".vim/bundle/nginx"]
-	path = .vim/bundle/nginx
-	url = https://github.com/vim-scripts/nginx.vim.git
 [submodule ".vim/bundle/gnupg"]
 	path = .vim/bundle/gnupg
 	url = https://github.com/jamessan/vim-gnupg.git
@@ -34,30 +25,12 @@
 [submodule ".vim/bundle/vim-addon-mw-utils"]
 	path = .vim/bundle/vim-addon-mw-utils
 	url = git://github.com/MarcWeber/vim-addon-mw-utils.git
-[submodule ".vim/bundle/xslate-vim"]
-	path = .vim/bundle/xslate-vim
-	url = https://github.com/motemen/xslate-vim.git
-[submodule ".vim/bundle/perlhelp"]
-	path = .vim/bundle/perlhelp
-	url = https://github.com/vim-scripts/perlhelp.vim
 [submodule ".oh-my-zsh"]
 	path = .oh-my-zsh
 	url = https://github.com/robbyrussell/oh-my-zsh.git
-[submodule ".vim/bundle/vimclojure"]
-	path = .vim/bundle/vimclojure
-	url = https://github.com/vim-scripts/VimClojure.git
 [submodule ".vim/bundle/webapi-vim"]
 	path = .vim/bundle/webapi-vim
 	url = https://github.com/mattn/webapi-vim.git
-[submodule ".vim/bundle/vim-slime"]
-	path = .vim/bundle/vim-slime
-	url = https://github.com/jpalardy/vim-slime.git
-[submodule ".vim/bundle/vimwiki"]
-	path = .vim/bundle/vimwiki
-	url = https://github.com/vim-scripts/vimwiki.git
-[submodule ".vim/bundle/calendar-vim"]
-	path = .vim/bundle/calendar-vim
-	url = https://github.com/vim-scripts/calendar.vim--Matsumoto.git
 [submodule ".vim/bundle/command-t"]
 	path = .vim/bundle/command-t
 	url = https://github.com/wincent/Command-T.git

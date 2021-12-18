@@ -190,15 +190,6 @@ let g:gist_open_browser_after_post = 1
 let g:gist_post_private = 1
 " }}}
 
-" Slime {{{
-let g:slime_target = "tmux"
-" }}}
-
-" VimWiki {{{
-let g:vimwiki_list = [{'path': '~/Documents/wiki', 'ext': '.wiki.gpg' }]
-let g:calendar_monday = 1
-" }}}
-
 " Command-T {{{
 set wildignore+=blib/**,inc/**
 " let g:CommandTCancelMap             = ['<C-x>', '<C-[>', '<Esc>']
