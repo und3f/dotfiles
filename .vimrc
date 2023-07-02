@@ -79,11 +79,11 @@ set t_Co=256
 if has('gui_running')
     set background=light
     set mouse=a
-    set guifont=DejaVu\ Sans\ Mono\ 12
+    set guifont=DejaVu\ Sans\ Mono\ 14
     set guioptions-=T
     set guioptions-=m
 else
-    set background=dark
+    set background=light
     set mouse=r
     let g:solarized_termcolors=256
 endif
