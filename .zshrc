@@ -16,7 +16,6 @@ bindkey '\e[B' history-beginning-search-forward
 setopt alwaystoend             # when complete from middle, move cursor
 
 # Aliases
-alias bc='rlwrap -a bc -l'
 alias sperl="sudo /usr/bin/perl -I$HOME/perl5/lib/perl5 -Mlocal::lib"
 alias sprove="sudo /usr/bin/prove -I$HOME/perl5/lib/perl5 -Mlocal::lib"
 alias tmux='tmux -2'
