@@ -3,7 +3,7 @@ set -eux
 
 scale=2
 theme_prefix=\ HiDPI
-dpi=192
+dpi=96
 if [ $# -gt 0 ] && [ ! -z $1 ] && [ $1 = "disable" ]; then
   scale=1
   theme_prefix=
