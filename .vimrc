@@ -83,7 +83,7 @@ if has('gui_running')
     set guioptions-=T
     set guioptions-=m
 else
-    set background=light
+    set background=dark
     set mouse=r
     let g:solarized_termcolors=256
 endif

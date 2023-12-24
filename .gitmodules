@@ -49,3 +49,6 @@
 [submodule ".vim/bundle/vim-table-mode"]
 	path = .vim/bundle/vim-table-mode
 	url = https://github.com/dhruvasagar/vim-table-mode.git
+[submodule ".config/alacritty/themes"]
+	path = .config/alacritty/themes
+	url = https://github.com/alacritty/alacritty-theme.git
