@@ -1,4 +1,4 @@
-dirs=('go/bin' '.local/bin' 'node/bin')
+dirs=('go/bin' '.local/bin' 'node/bin', '.cargo/bin')
 
 for bindir in $dirs; do
   if [ -e "$HOME/${bindir}" ]; then
