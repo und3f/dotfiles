@@ -3,8 +3,8 @@ import = [
 ]
 
 [font]
-size = 32
+size = 33
 
 [window]
-decorations = "Full"
+decorations = "None"
 startup_mode = "Maximized"
