@@ -87,6 +87,7 @@ else
     set mouse=r
     let g:solarized_termcolors=256
 endif
+let g:solarized_termtrans=1
 colorscheme solarized
 set mousemodel=popup
 set mousehide
