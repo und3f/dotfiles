@@ -17,3 +17,7 @@ bindkey '\e[B' history-beginning-search-forward
 
 # When complete from middle, move cursor
 setopt alwaystoend
+
+battlesnake-viewer () {
+  java -jar ~/dev/battlesnake-viewer/target/battlesnake-viewer-1.0-SNAPSHOT-jar-with-dependencies.jar ${@}
+}
