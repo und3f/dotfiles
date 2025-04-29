@@ -37,7 +37,6 @@ set splitbelow
 set splitright
 set notimeout
 set nottimeout
-set autoread
 set autowrite
 set shiftround
 set title
@@ -199,3 +198,17 @@ set wildignore+=blib/**,inc/**
 
 " SnipMate
 let g:snipMate = { 'snippet_version': 1 }
+
+" Auto read
+:set autoread | au CursorHold * checktime | call feedkeys("lh")
+
+" Spell check {{{
+set spell spelllang=en_us
+
+" Spell check highlight
+hi clear SpellBad
+hi SpellBad cterm=underline
+" Set style for gVim
+hi SpellBad gui=undercurl
+
+" }}}
