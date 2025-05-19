@@ -1,8 +1,8 @@
-dirs=('go/bin' '.local/bin' 'node/bin' '.cargo/bin')
+dirs=("/usr/local/go/bin" "$HOME/.local/bin" "$HOME/node/bin" "$HOME/.cargo/bin")
 
 for bindir in $dirs; do
-  if [ -d "$HOME/${bindir}" ]; then
-    export PATH="$HOME/${bindir}:$PATH"
+  if [ -d "${bindir}" ]; then
+    export PATH="${bindir}:$PATH"
   fi
 done
 
